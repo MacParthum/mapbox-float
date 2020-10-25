@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Mapbox Float Layout</title>
+    <link rel="stylesheet" href="floatStyle/style.css" />
+    <link rel="stylesheet" href="floatStyle/float-style.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <header>Header</header>
+        <!-- Holds the footer in place by keeping it from overflowing the container. -->
+        <div class="clearfix"> 
+            <aside>Aside</aside>
+            <!-- -id="map"- is grabbed on line 4 of the mapbox.js -container: "map"-, -->
+            <map-box id="map"></map-box>
+        </div>
+        <footer>Footer</footer>
+    </div>
+</body>
+<!--  -->
+<script src="mapbox.js" />
+</script>
+
+</html>

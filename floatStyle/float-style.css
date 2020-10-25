@@ -1,0 +1,14 @@
+/*clearfix keeps the footer from overflowing and jumping*/
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+  aside {
+    float: left;
+  }
+  
+  map-box {
+    float: left;
+  }
